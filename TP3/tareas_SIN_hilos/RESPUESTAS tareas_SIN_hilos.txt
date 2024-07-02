@@ -1,0 +1,16 @@
+Preguntas y Respuestas
+
+1. ¿Qué se puede notar con respecto al tiempo de ejecución? ¿Es predecible?
+
+	tarea_1: El tiempo puede variar un poco, pero es bastante consistente.
+	tarea_2 y tarea_3: Son muy predecibles, siempre toman 1 y 4 segundos respectivamente.
+
+2. Proceso de “máxima velocidad posible” que depende de la velocidad de la máquina:
+
+	Ordenar una lista.
+	Compilar código.
+
+3. Proceso de “velocidad de respuesta no dependiente de la velocidad de procesamiento”:
+
+	Esperar una respuesta de una API.
+	Descargar un archivo de Internet.

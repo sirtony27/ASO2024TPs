@@ -1,0 +1,17 @@
+Preguntas y Respuestas
+
+1. ¿Qué se puede notar con respecto al tiempo de ejecución?
+
+	-El tiempo de ejecución puede variar ligeramente.
+
+2. ¿Qué sucede con el valor final del acumulador?
+
+	-El valor final del acumulador es inconsistente y puede variar entre ejecuciones. No siempre es cero.
+
+3. ¿Por qué sucede esto?
+
+	-Sucede debido a condiciones de carrera. Ambos hilos acceden y modifican la variable acumulador simultáneamente sin sincronización adecuada, lo que lleva a resultados inconsistentes.
+
+4. ¿Cómo se puede corregir esta condición de carrera sin dejar de utilizar hilos?
+
+	-Se puede corregir utilizando un lock para asegurar que solo un hilo accede y modifica acumulador a la vez.

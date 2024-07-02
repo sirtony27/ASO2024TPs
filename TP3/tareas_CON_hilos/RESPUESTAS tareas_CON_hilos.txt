@@ -1,0 +1,10 @@
+Preguntas y Respuestas
+
+1. ¿Qué se puede notar con respecto al tiempo de ejecución? ¿Se mejoró el tiempo de respuesta con respecto al mismo programa sin hilos?
+	-Sí, el tiempo total de ejecución se reduce porque las tareas se ejecutan en paralelo. En lugar de sumar los tiempos de cada tarea, el tiempo total se aproxima a la duración de la tarea más larga (tarea_3).
+
+2. ¿Completan las funciones su ejecución en el orden establecido?
+	-No necesariamente. Las tareas se ejecutan en paralelo, por lo que pueden completarse en cualquier orden.
+
+3. Nombrar un escenario real donde el multi-hilado puede mejorar considerablemente el tiempo de respuesta de un sistema:
+	-Juegos en tiempo real que requieren manejar gráficos, sonido y entrada del usuario simultáneamente.

@@ -1,0 +1,9 @@
+Preguntas y Respuestas
+
+1. ¿Qué sucede con el valor final del acumulador?
+
+	-El valor final del acumulador siempre es cero. El uso del lock asegura que las operaciones de suma y resta se realicen de forma segura y consistente, evitando condiciones de carrera.
+
+2. ¿Qué se puede notar con respecto al tiempo de ejecución?
+
+	El tiempo de ejecución puede ser un poco más largo debido a la sobrecarga del lock, ya que los hilos tienen que esperar su turno para acceder y modificar acumulador. Sin embargo, la consistencia del valor final compensa este aumento en el tiempo de ejecución.
